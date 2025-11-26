@@ -8,7 +8,7 @@
 - Created Issue [#1518 RuntimeError: Event loop is closed in latest version of library](https://github.com/googleapis/python-genai/issues/1518) in [googleapis/python-genai](https://github.com/googleapis/python-genai)
 
 ### 🚀 Recent Pull Requests
-- Opened PR [#1923 feat(tools/spanner-list-graph): tool impl + docs + tests](https://github.com/googleapis/genai-toolbox/pull/1923) in [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox)
+- Merged PR [#1923 feat(tools/spanner-list-graph): tool impl + docs + tests](https://github.com/googleapis/genai-toolbox/pull/1923) in [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox)
 - Merged PR [#1894 fix: return object_details as structured JSON in Spanner list tables tool](https://github.com/googleapis/genai-toolbox/pull/1894) in [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox)
 - Merged PR [#1844 docs: update contributing with correct conventions](https://github.com/googleapis/genai-toolbox/pull/1844) in [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox)
 - Merged PR [#1837 docs: update spanner available tools](https://github.com/googleapis/genai-toolbox/pull/1837) in [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox)
