@@ -10,6 +10,6 @@
 ### 🚀 Recent Pull Requests
 - Opened PR [#2074 docs: update unit tests execute command](https://github.com/googleapis/genai-toolbox/pull/2074) in [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox)
 - Opened PR [#2072 fix: nil slice null json fix](https://github.com/googleapis/genai-toolbox/pull/2072) in [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox)
-- Opened PR [#2056 feat: add spanner list graphs to prebuiltconfigs](https://github.com/googleapis/genai-toolbox/pull/2056) in [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox)
+- Merged PR [#2056 feat: add spanner list graphs to prebuiltconfigs](https://github.com/googleapis/genai-toolbox/pull/2056) in [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox)
 - Merged PR [#1923 feat(tools/spanner-list-graph): tool impl + docs + tests](https://github.com/googleapis/genai-toolbox/pull/1923) in [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox)
 - Merged PR [#1894 fix: return object_details as structured JSON in Spanner list tables tool](https://github.com/googleapis/genai-toolbox/pull/1894) in [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox)
