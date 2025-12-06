@@ -8,8 +8,8 @@
 - Created Issue [#1518 RuntimeError: Event loop is closed in latest version of library](https://github.com/googleapis/python-genai/issues/1518) in [googleapis/python-genai](https://github.com/googleapis/python-genai)
 
 ### 🚀 Recent Pull Requests
+- Opened PR [#2123 feat(tools/mysql-get-query-plan): tool impl + docs + tests](https://github.com/googleapis/genai-toolbox/pull/2123) in [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox)
 - Opened PR [#2107 fix: list tables tools null fix](https://github.com/googleapis/genai-toolbox/pull/2107) in [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox)
 - Opened PR [#2074 docs: update unit tests execute command](https://github.com/googleapis/genai-toolbox/pull/2074) in [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox)
 - Opened PR [#2072 fix: nil slice null json fix](https://github.com/googleapis/genai-toolbox/pull/2072) in [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox)
 - Merged PR [#2056 feat: add spanner list graphs to prebuiltconfigs](https://github.com/googleapis/genai-toolbox/pull/2056) in [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox)
-- Merged PR [#1923 feat(tools/spanner-list-graph): tool impl + docs + tests](https://github.com/googleapis/genai-toolbox/pull/1923) in [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox)
