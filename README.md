@@ -9,7 +9,7 @@
 
 ### 🚀 Recent Pull Requests
 - Opened PR [#2155 feat(trino): ssl verification options + docs params fix](https://github.com/googleapis/genai-toolbox/pull/2155) in [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox)
-- Opened PR [#2123 feat(tools/mysql-get-query-plan): tool impl + docs + tests](https://github.com/googleapis/genai-toolbox/pull/2123) in [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox)
+- Merged PR [#2123 feat(tools/mysql-get-query-plan): tool impl + docs + tests](https://github.com/googleapis/genai-toolbox/pull/2123) in [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox)
 - Merged PR [#2107 fix: list tables tools null fix](https://github.com/googleapis/genai-toolbox/pull/2107) in [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox)
 - Merged PR [#2074 docs: update unit tests execute command](https://github.com/googleapis/genai-toolbox/pull/2074) in [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox)
 - Opened PR [#2072 fix: nil slice null json fix](https://github.com/googleapis/genai-toolbox/pull/2072) in [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox)
