@@ -13,7 +13,7 @@ def generate_readme_content(issues, pull_requests):
     """Generates the README content."""
     content = "## ⚡️ Recent Activity\n\n"
 
-    content += "### 🐛 Recent Issues ([view all](https://github.com/search?q=author%3AgRedHeadphone+type:issue))\n"
+    content += "### 🐛 Recent Issues ([view all](https://github.com/search?q=author%3AgRedHeadphone+&type=issues))\n"
     if issues and issues.get("items"):
         for issue in issues["items"][:5]:
             repo_name = "/".join(issue['html_url'].split('/')[3:5])
@@ -22,7 +22,7 @@ def generate_readme_content(issues, pull_requests):
     else:
         content += "- No recent issues\n"
 
-    content += "\n### 🚀 Recent Pull Requests ([view all](https://github.com/search?q=author%3AgRedHeadphone+type:pullrequests))\n"
+    content += "\n### 🚀 Recent Pull Requests ([view all](https://github.com/search?q=author%3AgRedHeadphone+&type=pullrequests))\n"
     if pull_requests and pull_requests.get("items"):
         for pr in pull_requests["items"][:5]:
             repo_name = "/".join(pr['html_url'].split('/')[3:5])
