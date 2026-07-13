@@ -13,3 +13,10 @@
 - Merged PR [#2123 feat(tools/mysql-get-query-plan): tool impl + docs + tests](https://github.com/googleapis/mcp-toolbox/pull/2123) in [googleapis/mcp-toolbox](https://github.com/googleapis/mcp-toolbox)
 - Merged PR [#2107 fix: list tables tools null fix](https://github.com/googleapis/mcp-toolbox/pull/2107) in [googleapis/mcp-toolbox](https://github.com/googleapis/mcp-toolbox)
 - Merged PR [#2074 docs: update unit tests execute command](https://github.com/googleapis/mcp-toolbox/pull/2074) in [googleapis/mcp-toolbox](https://github.com/googleapis/mcp-toolbox)
+
+### 📝 Recent Commits ([view all](https://github.com/search?q=author%3AgRedHeadphone&type=commits&s=committer-date&o=desc))
+- Committed [feat: add recent commit history to README via n...](https://github.com/gRedHeadphone/gRedHeadphone/commit/cf951cdcd57b6d8d73edf9e84078b824bf88f491) to [gRedHeadphone/gRedHeadphone](https://github.com/gRedHeadphone/gRedHeadphone)
+- Committed [Add .gitignore, fix vite issue, and address npm...](https://github.com/GoogleCloudPlatform/gemini-enterprise-eval-studio/commit/309aed1549a71a37099702d4aab049d694397dfb) to [GoogleCloudPlatform/gemini-enterprise-eval-studio](https://github.com/GoogleCloudPlatform/gemini-enterprise-eval-studio)
+- Committed [Update frontend docs and tests to reflect remov...](https://github.com/GoogleCloudPlatform/gemini-enterprise-eval-studio/commit/57a89ede0310049160e2047841e3795c26ffc29e) to [GoogleCloudPlatform/gemini-enterprise-eval-studio](https://github.com/GoogleCloudPlatform/gemini-enterprise-eval-studio)
+- Committed [Fix Babel TS parser error in Angular ngClass te...](https://github.com/GoogleCloudPlatform/gemini-enterprise-eval-studio/commit/e7f5cf02ed3ea9ba6c04ad47c79da782bd85b4ea) to [GoogleCloudPlatform/gemini-enterprise-eval-studio](https://github.com/GoogleCloudPlatform/gemini-enterprise-eval-studio)
+- Committed [Migrate frontend unit tests from Karma to Vitest](https://github.com/GoogleCloudPlatform/gemini-enterprise-eval-studio/commit/f8974994cb13cfb18782e87c6fce0bec4159a7e3) to [GoogleCloudPlatform/gemini-enterprise-eval-studio](https://github.com/GoogleCloudPlatform/gemini-enterprise-eval-studio)

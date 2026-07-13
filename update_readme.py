@@ -1,5 +1,6 @@
 import requests
 import os
+import re
 
 def fetch_github_data(username, token, type):
     """Fetches data from the GitHub API."""
@@ -9,7 +10,15 @@ def fetch_github_data(username, token, type):
     response.raise_for_status()
     return response.json()
 
-def generate_readme_content(issues, pull_requests):
+def fetch_github_commits(username, token):
+    """Fetches commits from the GitHub API."""
+    url = f"https://api.github.com/search/commits?q=author:{username}&sort=committer-date&order=desc"
+    headers = {"Authorization": f"token {token}", "Accept": "application/vnd.github.cloak-preview+json"}
+    response = requests.get(url, headers=headers)
+    response.raise_for_status()
+    return response.json()
+
+def generate_readme_content(issues, pull_requests, commits):
     """Generates the README content."""
     content = "## ⚡️ Recent Activity\n\n"
 
@@ -32,6 +41,19 @@ def generate_readme_content(issues, pull_requests):
     else:
         content += "- No recent pull requests\n"
 
+    content += "\n### 📝 Recent Commits ([view all](https://github.com/search?q=author%3AgRedHeadphone&type=commits&s=committer-date&o=desc))\n"
+    if commits and commits.get("items"):
+        for commit in commits["items"][:5]:
+            repo_name = commit['repository']['full_name']
+            repo_url = commit['repository']['html_url']
+            commit_message = commit['commit']['message'].split('\n')[0]
+            commit_message = re.sub(r'^\[.*?\]\s*', '', commit_message)
+            if len(commit_message) > 50:
+                commit_message = commit_message[:47] + '...'
+            content += f"- Committed [{commit_message}]({commit['html_url']}) to [{repo_name}]({repo_url})\n"
+    else:
+        content += "- No recent commits\n"
+
     return content
 
 def main():
@@ -46,7 +68,8 @@ def main():
     try:
         issues = fetch_github_data(username, token, "issue")
         pull_requests = fetch_github_data(username, token, "pr")
-        content = generate_readme_content(issues, pull_requests)
+        commits = fetch_github_commits(username, token)
+        content = generate_readme_content(issues, pull_requests, commits)
         with open("README.md", "w") as f:
             f.write(content)
         print("README.md updated successfully.")
